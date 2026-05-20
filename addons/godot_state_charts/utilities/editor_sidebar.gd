@@ -92,7 +92,7 @@ func _on_history_state_pressed() -> void:
 
 
 func _on_transition_pressed() -> void:
-	_create_node(Transition, "Transition")
+	_create_node(NameBasedTransition, "Transition")
 
 
 func _on_toggle_sidebar_button_pressed() -> void:
